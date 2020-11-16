@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="affirmation" value="Happy Diwali" />
+	<test thread-count="5" name="Test111">
+		<parameter name="mediumname" value="meddie" />
+		<groups>
+			<run>
+				<include name="even" />
+
+			</run>
+		</groups>
+		<classes>
+			<class name="TestNGTu.DemoClass5" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="5" name="Test222">
+		<groups>
+			<run>
+				<include name="medium" />
+
+			</run>
+		</groups>
+		<classes>
+			<class name="TestNGTu.DemoClass6" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

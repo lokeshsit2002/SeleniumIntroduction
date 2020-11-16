@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" parallel="tests" thread-count="2"> <!--To run 2 tests in parallel -->
+
+		<test name="Hello" parallel="classes" thread-count="2">  <!--To run 2 classes of test "Hello" in parallel -->
+			<classes>
+				<class name="TestNGTu.DemoClass1" />
+				<class name="TestNGTu.DemoClass2" />
+			</classes>
+		</test> <!-- Test -->
+		<test name="HomeLoan">
+			<classes>
+				<class name="TestNGTu.DemoClass3">
+					<methods>
+						<include name="mobile.*" />
+					</methods>
+				</class>
+			</classes>
+
+		</test>
+
+		<test name="CarLoan"> <!-- Don't Execute MoblieCarloan -->
+			<classes>
+				<class name="TestNGTu.DemoClass4">
+					<methods>
+						<exclude name="mobileCarLoan" />
+					</methods>
+				</class>
+			</classes>
+
+		</test>
+	
+</suite> <!-- Suite -->

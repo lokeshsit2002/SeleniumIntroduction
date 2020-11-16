@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="4" total="12" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="189" started-at="2019-11-05T15:16:51 IST" finished-at="2019-11-05T15:16:51 IST">
+    <groups>
+      <group name="top">
+        <method signature="DemoClass5.byeTest0(java.lang.String)[pri:0, instance:TestNGTu.DemoClass5@4fe3c938]" name="byeTest0" class="TestNGTu.DemoClass5"/>
+      </group> <!-- top -->
+      <group name="even">
+        <method signature="DemoClass5.byeTest4()[pri:0, instance:TestNGTu.DemoClass5@4fe3c938]" name="byeTest4" class="TestNGTu.DemoClass5"/>
+        <method signature="DemoClass5.byeTest2(java.lang.String, java.lang.String)[pri:0, instance:TestNGTu.DemoClass5@4fe3c938]" name="byeTest2" class="TestNGTu.DemoClass5"/>
+        <method signature="DemoClass5.byeTest0(java.lang.String)[pri:0, instance:TestNGTu.DemoClass5@4fe3c938]" name="byeTest0" class="TestNGTu.DemoClass5"/>
+        <method signature="DemoClass6.NamasakarTest4()[pri:0, instance:TestNGTu.DemoClass6@4f970963]" name="NamasakarTest4" class="TestNGTu.DemoClass6"/>
+        <method signature="DemoClass6.NamasakarTest2(java.lang.String)[pri:0, instance:TestNGTu.DemoClass6@4f970963]" name="NamasakarTest2" class="TestNGTu.DemoClass6"/>
+      </group> <!-- even -->
+      <group name="medium">
+        <method signature="DemoClass5.byeTest3()[pri:0, instance:TestNGTu.DemoClass5@4fe3c938]" name="byeTest3" class="TestNGTu.DemoClass5"/>
+        <method signature="DemoClass5.byeTest4()[pri:0, instance:TestNGTu.DemoClass5@4fe3c938]" name="byeTest4" class="TestNGTu.DemoClass5"/>
+        <method signature="DemoClass5.byeTest2(java.lang.String, java.lang.String)[pri:0, instance:TestNGTu.DemoClass5@4fe3c938]" name="byeTest2" class="TestNGTu.DemoClass5"/>
+        <method signature="DemoClass6.NamasakarTest3()[pri:0, instance:TestNGTu.DemoClass6@4f970963]" name="NamasakarTest3" class="TestNGTu.DemoClass6"/>
+        <method signature="DemoClass6.NamasakarTest4()[pri:0, instance:TestNGTu.DemoClass6@4f970963]" name="NamasakarTest4" class="TestNGTu.DemoClass6"/>
+        <method signature="DemoClass6.NamasakarTest2(java.lang.String)[pri:0, instance:TestNGTu.DemoClass6@4f970963]" name="NamasakarTest2" class="TestNGTu.DemoClass6"/>
+        <method signature="DemoClass6.NamasakarTest1(java.lang.String)[pri:0, instance:TestNGTu.DemoClass6@4f970963]" name="NamasakarTest1" class="TestNGTu.DemoClass6"/>
+      </group> <!-- medium -->
+      <group name="odd">
+        <method signature="DemoClass5.byeTest3()[pri:0, instance:TestNGTu.DemoClass5@4fe3c938]" name="byeTest3" class="TestNGTu.DemoClass5"/>
+        <method signature="DemoClass5.byeTest0(java.lang.String)[pri:0, instance:TestNGTu.DemoClass5@4fe3c938]" name="byeTest0" class="TestNGTu.DemoClass5"/>
+        <method signature="DemoClass6.NamasakarTest3()[pri:0, instance:TestNGTu.DemoClass6@4f970963]" name="NamasakarTest3" class="TestNGTu.DemoClass6"/>
+        <method signature="DemoClass6.NamasakarTest1(java.lang.String)[pri:0, instance:TestNGTu.DemoClass6@4f970963]" name="NamasakarTest1" class="TestNGTu.DemoClass6"/>
+      </group> <!-- odd -->
+    </groups>
+    <test name="Test111" duration-ms="86" started-at="2019-11-05T15:16:51 IST" finished-at="2019-11-05T15:16:51 IST">
+      <class name="TestNGTu.DemoClass5">
+        <test-method status="PASS" signature="byeTest3()[pri:0, instance:TestNGTu.DemoClass5@4fe3c938]" name="byeTest3" duration-ms="14" started-at="2019-11-05T15:16:51 IST" finished-at="2019-11-05T15:16:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- byeTest3 -->
+        <test-method status="PASS" signature="byeTest4()[pri:0, instance:TestNGTu.DemoClass5@4fe3c938]" name="byeTest4" duration-ms="2" started-at="2019-11-05T15:16:51 IST" finished-at="2019-11-05T15:16:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- byeTest4 -->
+        <test-method status="FAIL" signature="byeTest0(java.lang.String)[pri:0, instance:TestNGTu.DemoClass5@4fe3c938]" name="byeTest0" duration-ms="0" started-at="2019-11-05T15:16:51 IST" finished-at="2019-11-05T15:16:51 IST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Cannot inject @Test annotated Method [byeTest0] with [class java.lang.String].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Cannot inject @Test annotated Method [byeTest0] with [class java.lang.String].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:458)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:372)
+at org.testng.internal.Parameters.createParameters(Parameters.java:729)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:895)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:762)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:60)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:39)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:771)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- byeTest0 -->
+        <test-method status="PASS" signature="byeTest2(java.lang.String, java.lang.String)[pri:0, instance:TestNGTu.DemoClass5@4fe3c938]" name="byeTest2" duration-ms="2" started-at="2019-11-05T15:16:51 IST" depends-on-methods="TestNGTu.DemoClass5.byeTest4, TestNGTu.DemoClass5.byeTest3" finished-at="2019-11-05T15:16:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Happy Diwali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[meddie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- byeTest2 -->
+      </class> <!-- TestNGTu.DemoClass5 -->
+    </test> <!-- Test111 -->
+    <test name="Test222" duration-ms="15" started-at="2019-11-05T15:16:51 IST" finished-at="2019-11-05T15:16:51 IST">
+      <class name="TestNGTu.DemoClass6">
+        <test-method status="PASS" signature="NamasakarTest3()[pri:0, instance:TestNGTu.DemoClass6@4f970963]" name="NamasakarTest3" duration-ms="1" started-at="2019-11-05T15:16:51 IST" finished-at="2019-11-05T15:16:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NamasakarTest3 -->
+        <test-method status="PASS" signature="NamasakarTest4()[pri:0, instance:TestNGTu.DemoClass6@4f970963]" name="NamasakarTest4" duration-ms="1" started-at="2019-11-05T15:16:51 IST" finished-at="2019-11-05T15:16:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NamasakarTest4 -->
+        <test-method status="PASS" signature="NamasakarTest1(java.lang.String)[pri:0, instance:TestNGTu.DemoClass6@4f970963]" name="NamasakarTest1" duration-ms="1" started-at="2019-11-05T15:16:51 IST" finished-at="2019-11-05T15:16:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Happy Diwali]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NamasakarTest1 -->
+        <test-method status="PASS" signature="NamasakarTest2(java.lang.String)[pri:0, instance:TestNGTu.DemoClass6@4f970963]" name="NamasakarTest2" duration-ms="2" started-at="2019-11-05T15:16:51 IST" depends-on-methods="TestNGTu.DemoClass6.NamasakarTest4, TestNGTu.DemoClass6.NamasakarTest3" finished-at="2019-11-05T15:16:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Happy Diwali]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NamasakarTest2 -->
+      </class> <!-- TestNGTu.DemoClass6 -->
+    </test> <!-- Test222 -->
+  </suite> <!-- Suite -->
+</testng-results>

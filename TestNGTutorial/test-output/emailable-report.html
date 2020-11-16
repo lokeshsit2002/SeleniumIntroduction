@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Suite</th></tr>
+<tr><td><a href="#t0">Test111</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">86</td><td>even</td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Test222</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">15</td><td>medium</td><td></td></tr>
+<tr><th>Total</th><th class="num">7</th><th class="num">0</th><th class="num">0</th><th class="num attn">1</th><th class="num">101</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test111 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TestNGTu.DemoClass5</td><td><a href="#m0">byeTest0</a></td><td rowspan="1">1572947211333</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test111 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">TestNGTu.DemoClass5</td><td><a href="#m1">byeTest2</a></td><td rowspan="1">1572947211343</td><td rowspan="1">2</td></tr><tr class="passedeven"><td><a href="#m2">byeTest3</a></td><td rowspan="1">1572947211304</td><td rowspan="1">14</td></tr><tr class="passedeven"><td><a href="#m3">byeTest4</a></td><td rowspan="1">1572947211323</td><td rowspan="1">2</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Test222 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">TestNGTu.DemoClass6</td><td><a href="#m4">NamasakarTest1</a></td><td rowspan="1">1572947211443</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m5">NamasakarTest2</a></td><td rowspan="1">1572947211447</td><td rowspan="1">2</td></tr><tr class="passedeven"><td><a href="#m6">NamasakarTest3</a></td><td rowspan="1">1572947211437</td><td rowspan="1">1</td></tr><tr class="passedeven"><td><a href="#m7">NamasakarTest4</a></td><td rowspan="1">1572947211440</td><td rowspan="1">1</td></tr></tbody>
+</table>
+<h2>Test111</h2><h3 id="m0">TestNGTu.DemoClass5#byeTest0</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
+Cannot inject @Test annotated Method [byeTest0] with [class java.lang.String].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">TestNGTu.DemoClass5#byeTest2</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>Happy Diwali</td><td>meddie</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">TestNGTu.DemoClass5#byeTest3</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">TestNGTu.DemoClass5#byeTest4</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test222</h2><h3 id="m4">TestNGTu.DemoClass6#NamasakarTest1</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Happy Diwali</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">TestNGTu.DemoClass6#NamasakarTest2</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Happy Diwali</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">TestNGTu.DemoClass6#NamasakarTest3</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">TestNGTu.DemoClass6#NamasakarTest4</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

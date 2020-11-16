@@ -1,0 +1,14 @@
+16:58:47.753 [main] DEBUG alpha.Demo1 - Click on  originStation button
+17:01:44.954 [main] DEBUG alpha.Demo1 - Setting ChromeDriver System Property
+17:01:44.958 [main] INFO  alpha.Demo1 - ChromeDriver System Property is set
+17:01:44.958 [main] DEBUG alpha.Demo1 - Creating new Chrome Driver Instance 
+17:01:49.251 [main] INFO  alpha.Demo1 - New Chrome Driver Instance created
+17:01:49.252 [main] DEBUG alpha.Demo1 - Open Spicejet website
+17:02:02.221 [main] INFO  alpha.Demo1 - Spicejet website is opened
+17:02:02.222 [main] DEBUG alpha.Demo1 - Click on  originStation button
+17:02:06.966 [main] INFO  alpha.Demo1 - OriginStation button is clicked
+17:02:06.967 [main] DEBUG alpha.Demo1 - Select a source city 
+17:02:09.103 [main] INFO  alpha.Demo1 - A source city is selected 
+17:02:09.103 [main] DEBUG alpha.Demo1 - Select a destination city 
+17:02:14.469 [main] INFO  alpha.Demo1 - A destination city is selected 
+17:02:14.469 [main] DEBUG alpha.Demo1 - Select current date from calendar

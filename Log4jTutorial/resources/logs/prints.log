@@ -1,0 +1,5 @@
+17:02:14.723 [main] INFO  alpha.Demo1 - The current date is selected from calendar
+17:02:14.738 [main] DEBUG alpha.Demo1 - verify if the returning calendar is enabled or not for one way
+17:02:14.806 [main] INFO  alpha.Demo1 - The returning calendar is disabled for one way
+17:02:14.806 [main] DEBUG alpha.Demo1 - verify if the returning calendar is enabled or not for roundtrip
+17:02:14.987 [main] INFO  alpha.Demo1 - The returning calendar is enabled for round trip
